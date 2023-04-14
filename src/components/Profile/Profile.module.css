@@ -1,0 +1,33 @@
+/* CSS-модулями (className="item")*/
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 100%;
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: -1px -1px 10px black, 1px 1px 10px gray;
+  background-color: bisque;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
